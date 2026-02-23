@@ -24,24 +24,6 @@ Objectif pedagogique : Mettre en oeuvre les concepts de programmation reseau, de
 - Serialisation d'objets
 - Programmation orientee objet
 
-## Structure du projet
-ChatApplication/
-├── src/
-│ ├── common/
-│ │ ├── Constants.java # Configuration des ports et constantes
-│ │ ├── Message.java # Modele de message serialisable
-│ │ └── User.java # Modele d'utilisateur
-│ ├── server/
-│ │ ├── ChatServer.java # Serveur principal
-│ │ ├── ClientHandler.java # Gestionnaire de clients
-│ │ └── ServerLauncher.java # Point d'entree du serveur
-│ └── client/
-│ ├── ChatClient.java # Client de chat
-│ └── ClientLauncher.java # Point d'entree du client
-├── .gitignore
-└── README.md
-
-
 ## Guide d'installation et d'execution
 
 ### Prerequis
